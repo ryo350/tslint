@@ -10,7 +10,7 @@ jobs:
         command: 'sudo npm install -g npm@6.4.1'
     - run:
         name: Install npm dependencies
-        command: 'npm install'
+        command: npm install
     - run:
         name: rebuild modules
         command: npm rebuild
